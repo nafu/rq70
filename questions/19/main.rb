@@ -1,6 +1,6 @@
 require 'benchmark'
 
-module Q00
+module Q19
   module_function
 
   def run
@@ -10,7 +10,7 @@ end
 
 Benchmark.bm do |x|
   x.report do
-    $answer = Q00.run
+    $answer = Q19.run
   end
 end
 
